@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+    
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="styleshee" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/animate.css" rel="stylesheet">
+    <script  src="js/wow.js"></script>
+    <script  src="js/wow.min.js"></script>
+    <script  src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    
+</head>
+
+<body>
+    
+<div class="firstpage">
+		
+    <div class="menubar">
+		
+			<div class="logo">
+                <br>
+				<center>
+				<img src="img/pngegg.png" height="100px" align="right">
+				</center>
+			</div>
+            
+            <div class="hogwarts">
+                <br>
+				<center>
+				<img src="img/unnamed.png" height="100px">
+				</center>
+			</div>
+			
+			<div class="menu">
+                <br>
+			<center>
+				<ul>
+					<b>
+						<li style="color: #9e363d">Trang chủ</li>
+						<li>Hogwarts</li>
+						<li>Phổ biếnu</li>
+						<li>Tứ nhà</li>
+                        <li>Khuôn viên</li>
+						<li>Liên hệ</li>
+					</b>
+				</ul>
+			</center>
+			</div>
+		
+    </div>
+    
+    <div clas="gioithieu">
+        <img src="img/maxresdefault.jpg" width="100%" style="animation: fadeIn 5s">
+    </div>
+    
+</div>
+        
+<br>
+    
+<div class="thongtin">
+    
+    <div class="slideshow-container wow slideInLeft" data-wow-duration="2s">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/s-l1600.jpg" style="width:100%">
+  <div class="text">Toàn cảnh Hogwarts</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/Hogwarts_boats_1.jpg" style="width:100%">
+  <div class="text">Phù thủy sinh năm nhất tới trường</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/hogwarts-quidditch-stadium.jpg" style="width:100%">
+  <div class="text">Sân Quidditch</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </div>
+    
+    <div class="chu wow slideInRight" data-wow-delay="2s">
+    <center>
+        <h1 style="color: black">Hogwarts là nhà</h1>
+        Trường Phù thủy và Pháp sư Hogwarts - nơi hướng dẫn các trò, những người có khả năng pháp thuật, trở thành các phù thủy và pháp sư ở Anh và Scotland.<br><br> 
+        Các trò không phải trả học phí gì cả, chỉ phải tự mua sách giáo khoa và tài liệu, dụng cụ học tập. Đặc biệt, nếu các trò có hoàn cảnh khó khăn thì nhà trường sẽ cấp học bổng cho các trò.
+    </center>
+    </div>
+</div>
+
+    
+
+<!-- number counter -->
+    <div class="counter wow fadeInDown">
+    
+    <h1 style="color: black">Vì sao các trò cần ở đây?</h1>
+
+<div class="wrapper">
+    <div class="counter col_fourth">
+        <img src="img/136451510-hourglass-icon-flat-vector-object-isolated-on-white-flat-hour-glass.png" width="40%">
+      <h2 class="timer count-title count-number" data-to="20" data-speed="1500"></h2>
+       <p class="count-text ">Thâm niên (năm)</p>
+    </div>
+
+    <div class="counter col_fourth">
+      <img src="img/graduate bachelor hat_5457026.png" width="62%">
+      <h2 class="timer count-title count-number" data-to="52000" data-speed="1500"></h2>
+      <p class="count-text ">Phù thủy sinh (người)</p>
+    </div>
+
+    <div class="counter col_fourth">
+      <img src="img/—Pngtree—magic wand icon_4955395.png" width="43%">
+      <h2 class="timer count-title count-number" data-to="120" data-speed="1500"></h2>
+      <p class="count-text ">Giáo sư (người)</p>
+    </div>
+
+    <div class="counter col_fourth end">
+      <img src="img/pngtree-red-heart-icon-isolated-png-image_1726594.png" width="41%">
+      <h2 class="timer count-title count-number" data-to="98" data-speed="1500"></h2>
+      <p class="count-text ">Mức thỏa mãn (%)</p>
+    </div>
+</div>
+<!-- partial -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script  src="js/script.js"></script>
+    
+</div>
+    
+    <br><br>
+    
+    
+<!-- skillbar -->  
+<div class="skillbar wow slideInLeft" data-wow-duration="4s" style="color: black">
+    <center><h1>Chỉ số cảm xúc của cựu học trò</h1></center>
+<p>Vui vẻ cùng bạn bè</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+<br>
+    
+<p>Thỏa mãn với kiến thức</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+    <br>
+    
+<p>Thành công trong cuộc sống</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+</div>
+    
+<!-- lightbox -->
+<div class="tunha">
+    <div class="nha wow tada" data-wow-offset="300">
+        <br><br>
+    <h1 style="color: black">Các trò sẽ được phân nhà</h1>
+    <h2>Mỗi nhà sẽ có tính chất khác nhau và Nón sẽ phân định các trò vào nhà nào!</h2>
+    </div>
+    
+    <div class="hinhnha">
+        <a class="example-image-link" href="img/Untitled-4.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="img/tumblr_p5yf44yXya1vluuyxo1_640.jpg" width="100%" alt="image-1"/></a>
+        
+    </div>
+    
+    <div class="hinhnha">
+        <a class="example-image-link" href="img/Untitled-3.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="img/a8496b5d971e09c5281e1cec28c74eef.jpg" width="100%" alt="image-1"/></a>
+        
+        
+    </div>
+        
+        
+    <div class="hinhnha" style="background-color: navy">
+        <a class="example-image-link" href="img/Untitled-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="img/tumblr_p5yf44yXya1vluuyxo3_640.jpg" width="100%" alt="image-1"/></a>
+        
+        </div>
+        
+    
+    <div class="hinhnha" style="background-color: darkgoldenrod">
+        <a class="example-image-link" href="img/Untitled-1.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="img/tumblr_p5yf44yXya1vluuyxo9_640.jpg" width="100%" alt="image-1"/></a>
+        
+    </div>
+</div>
+
+    <br><br><br>
+<div class="form wow bouncein" data-wow-duration="4s">
+    
+   <h1 style="color: black">Các trò có muốn hỏi gì không?</h1>
+<p>Nhà trường rất mong được nghe câu hỏi của các trò và nhờ đó, chúng ta có thể cải thiện môi trường học đường.</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Họ</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Nguyễn">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Tên</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="An">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Nơi sống</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Việt Nam">Việt Nam</option>
+          <option value="canada">Canada</option>
+          <option value="Anh">Anh</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Câu hỏi</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Gửi">
+    </div>
+  </form>
+</div> 
+    
+</div>
+
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+ <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>   
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
